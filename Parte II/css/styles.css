@@ -25,13 +25,9 @@
 
 .header-content {
   width: 80%;
-  display: flex;
-  justify-content: space-between;
 }
 .header-logos {
   width: 250px;
-  display: flex;
-  justify-content: space-between;
   margin-top: 23px;
 }
 
@@ -44,8 +40,6 @@
 .header-buttons {
   margin-top: 20px;
   width: 350px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .bmwLogoImg {
@@ -113,6 +107,89 @@
   line-height: 44px;
 }
 
+.car-details {
+  padding: 0 10%;
+  padding-top: 10px;
+}
+
+.car-detail-ad {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #666666;
+}
+
+.car-price {
+  align-items: center;
+  height: 30px;
+  margin-top: 10px;
+  border-left: 3px solid #e5e5e5;
+  padding-left: 7px;
+}
+
+.car-price strong {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #333333;
+}
+
+.car-img {
+  width: 541px;
+  height: 330px;
+  left: 164px;
+  top: 348px;
+}
+
+.details-container {
+  width: 280px;
+  margin-right: 160px;
+}
+
+.details-container h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 25px;
+}
+
+.details-container button {
+  width: 206px;
+}
+
+.details-columns {
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.detail-div {
+  width: 130px;
+  margin-bottom: 24px;
+}
+.detail-div p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  text-overflow: unset;
+  white-space: nowrap;
+}
+
+.detail-div strong {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3754e2;
+}
+
+.details-icons {
+  margin-right: 15px;
+}
 @media (max-width: 760px) {
   /* Header */
   .header {
@@ -124,5 +201,23 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+  }
+
+  .car-details {
+    margin-top: 50px;
+  }
+  .car-img {
+    width: 216px;
+    height: 132px;
+    left: 164px;
+    top: 348px;
+  }
+
+  .car-price strong {
+    margin-top: 35px;
+  }
+
+  .car-details-div {
+    flex-direction: column;
   }
 }
