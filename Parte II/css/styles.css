@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  padding-left: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.header-logos {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 23px;
+}
+
+.dealerLogoImg {
+  height: 30px;
+  padding-right: 20px;
+  border-right: 1px solid #000000;
+}
+
+.header-buttons {
+  margin-top: 20px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bmwLogoImg {
+  height: 48px;
+  margin-top: -10px;
+}
+
+.button {
+  width: 160px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  vertical-align: top;
+}
+
+.button-purple {
+  background-color: #3754e2;
+}
+.button-purple:hover {
+  background-color: #304acb;
+  cursor: pointer;
+}
+
+.button-green {
+  background-color: #4ec859;
+}
+.button-green:hover {
+  background-color: #2daf38;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .header {
+    width: 100%;
+    height: fit-content;
+    padding: 0px 0px 5px 0px;
+  }
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
