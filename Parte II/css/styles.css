@@ -110,6 +110,7 @@
 .car-details {
   padding: 0 10%;
   padding-top: 10px;
+  margin-bottom: 40px;
 }
 
 .car-detail-ad {
@@ -190,6 +191,41 @@
 .details-icons {
   margin-right: 15px;
 }
+
+.car-description-section {
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.car-descriprion-content {
+  width: 80%;
+  border-top: 3px solid #333333;
+  padding-top: 36px;
+}
+
+.car-description-ad h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: -5px;
+}
+
+.car-description {
+  width: 540px;
+}
+
+.car-description p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
 @media (max-width: 760px) {
   /* Header */
   .header {
