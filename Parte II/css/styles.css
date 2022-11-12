@@ -1,3 +1,14 @@
+:root {
+  --black: #000000;
+  --white-1: #fafafa;
+  --purple: #3754e2;
+  --dark-purple: #304acb;
+  --green: #4ec859;
+  --dark-green: #2daf38;
+  --gray: #666666;
+  --gray-2: #e5e5e5;
+  --dark-gray: #333333;
+}
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +45,7 @@
 .dealerLogoImg {
   height: 30px;
   padding-right: 20px;
-  border-right: 1px solid #000000;
+  border-right: 1px solid var(--black);
 }
 
 .header-buttons {
@@ -61,25 +72,25 @@
 }
 
 .button-purple {
-  background-color: #3754e2;
+  background-color: var(--purple);
 }
 .button-purple:hover {
-  background-color: #304acb;
+  background-color: var(--dark-purple);
   cursor: pointer;
 }
 
 .button-green {
-  background-color: #4ec859;
+  background-color: var(--green);
 }
 .button-green:hover {
-  background-color: #2daf38;
+  background-color: var(--dark-green);
   cursor: pointer;
 }
 
 /* car-title */
 .car-title-div {
   height: 85px;
-  background-color: #fafafa;
+  background-color: var(--white-1);
   padding: 0% 10%;
   z-index: 1;
 }
@@ -88,14 +99,14 @@
   width: 100%;
   height: fit-content;
   margin-top: 20px;
-  color: #666666;
+  color: var(--gray);
   font-size: 12px;
 }
 .car-title-div span {
   cursor: pointer;
-  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid var(--gray);
   margin-left: 5px;
-  color: #666666;
+  color: var(--gray);
   height: fit-content;
 }
 
@@ -118,14 +129,14 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 33px;
-  color: #666666;
+  color: var(--gray);
 }
 
 .car-price {
   align-items: center;
   height: 30px;
   margin-top: 10px;
-  border-left: 3px solid #e5e5e5;
+  border-left: 3px solid var(--gray-2);
   padding-left: 7px;
 }
 
@@ -134,7 +145,7 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #333333;
+  color: var(--dark-gray);
 }
 
 .car-img {
@@ -175,7 +186,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-  color: #000000;
+  color: var(--black);
   text-overflow: unset;
   white-space: nowrap;
 }
@@ -185,7 +196,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-  color: #3754e2;
+  color: var(--purple);
 }
 
 .details-icons {
@@ -200,7 +211,7 @@
 
 .car-descriprion-content {
   width: 80%;
-  border-top: 3px solid #333333;
+  border-top: 3px solid var(--dark-gray);
   padding-top: 36px;
 }
 
@@ -221,7 +232,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #000000;
+  color: var(--black);
 }
 
 .video-section {
@@ -240,7 +251,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
-  color: #000000;
+  color: var(--black);
 }
 
 .video-content iframe {
@@ -269,15 +280,20 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
-  color: #000000;
+  color: var(--black);
 }
 
 .legal-text-content p {
   font-style: normal;
   font-size: 14px;
   line-height: 19px;
-  color: #000000;
+  color: var(--black);
 }
+
+.footer-section {
+  background-color: var(--black);
+}
+
 @media (max-width: 1000px) {
   /* Header */
   .header {
