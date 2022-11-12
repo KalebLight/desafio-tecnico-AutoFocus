@@ -251,6 +251,33 @@
   width: 100%;
   height: 630px;
 }
+
+.legal-text-section {
+  justify-content: center;
+  margin: 50px 0;
+  width: 100%;
+}
+
+.legal-text-content {
+  width: 80%;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 35px;
+}
+
+.legal-text-content span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.legal-text-content p {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
 @media (max-width: 1000px) {
   /* Header */
   .header {
@@ -281,9 +308,6 @@
   .car-details-div {
     flex-direction: column;
     align-items: center;
-  }
-
-  .car-description-ad h1 {
   }
 
   .car-descriprion-content {
