@@ -427,11 +427,33 @@
     margin-right: 0;
   }
 
+  .details-container button {
+    margin-left: 40px;
+  }
+
   .video-content {
     width: 50%;
   }
 
   .iframe-video {
     height: 180px;
+  }
+
+  .footer-div-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dealer-logo-footer-img {
+    width: fit-content;
+    margin-bottom: 10px;
+  }
+
+  .copyright-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyright-info img {
+    width: fit-content;
   }
 }
