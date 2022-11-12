@@ -73,6 +73,11 @@
   vertical-align: top;
 }
 
+.button img {
+  margin-bottom: -3px;
+  margin-right: 3px;
+}
+
 .button-purple {
   background-color: var(--purple);
 }
@@ -455,5 +460,6 @@
   }
   .copyright-info img {
     width: fit-content;
+    margin-bottom: 10px;
   }
 }
