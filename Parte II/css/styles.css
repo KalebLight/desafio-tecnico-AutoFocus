@@ -7,6 +7,8 @@
   --dark-green: #2daf38;
   --gray: #666666;
   --gray-2: #e5e5e5;
+  --gray-3: #e1e1e1;
+  --gray-4: rgba(255, 255, 255, 0.5);
   --dark-gray: #333333;
 }
 * {
@@ -242,7 +244,7 @@
 
 .video-content {
   width: 80%;
-  border-top: 1px solid #e1e1e1;
+  border-top: 1px solid var(--gray-3);
   padding-top: 25px;
 }
 
@@ -271,7 +273,7 @@
 
 .legal-text-content {
   width: 80%;
-  border-top: 1px solid #e1e1e1;
+  border-top: 1px solid var(--gray-3);
   padding-top: 35px;
 }
 
@@ -292,6 +294,92 @@
 
 .footer-section {
   background-color: var(--black);
+  width: 100%;
+  padding: 50px 0;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-div-1 {
+  width: 80%;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-4);
+  padding-bottom: 40px;
+}
+
+.dealer-logo-footer-img {
+  height: 22px;
+}
+
+.social-media-div {
+  color: var(--white-1);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  align-items: center;
+}
+
+.media-icon {
+  margin-left: 20px;
+}
+
+.footer-div-2 {
+  width: 100%;
+  justify-content: center;
+}
+.auto-force-info {
+  width: 80%;
+  color: #ffffff;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--gray-4);
+}
+.auto-force-info span {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.auto-force-info p {
+  font-weight: 400;
+}
+
+.auto-force-info div {
+  margin-top: 20px;
+}
+
+.auto-force-info a {
+  margin-left: 20px;
+  color: var(--gray-2);
+}
+
+.footer-div-3 {
+  width: 100%;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.copyright-info {
+  width: 80%;
+  justify-content: space-between;
+}
+.copyright-text {
+  color: white;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.copyright-text a {
+  color: white;
+  margin-left: 5px;
 }
 
 @media (max-width: 1000px) {
